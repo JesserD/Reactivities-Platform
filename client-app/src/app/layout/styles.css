@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.react-calendar {
+  width: 100% !important;
+  border: solid white !important;
+  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+}
+
+/*home page styles*/
+
+.masthead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+          135deg,
+          rgb(236, 131, 131) 0%,
+          rgb(212, 72, 72) 69%,
+          rgb(189, 21, 21) 89%
+  ) !important;
+  height: 100vh;
+  width: 100%;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+/*end home page styles*/

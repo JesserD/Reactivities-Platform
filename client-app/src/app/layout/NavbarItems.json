@@ -1,0 +1,7 @@
+{
+    "Menu": [
+        {"label": "Reactivites", "href": "/"},
+        {"label": "Activities", "href": "/activities"},
+        {"label": "Create activity", "href": "/createActivities"}
+    ]
+}

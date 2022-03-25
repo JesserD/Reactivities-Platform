@@ -1,0 +1,84 @@
+{
+  "name": "client-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.5",
+    "@chakra-ui/react": "^1.8.3",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@microsoft/signalr": "^6.0.3",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.25",
+    "@types/react": "^17.0.39",
+    "@types/react-infinite-scroller": "^1.2.2",
+    "axios": "^0.26.0",
+    "date-fns": "^2.28.0",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.2.6",
+    "mobx": "^6.4.0",
+    "mobx-react-lite": "^3.3.0",
+    "react": "^17.0.2",
+    "react-calendar": "^3.7.0",
+    "react-content-loader": "^6.2.0",
+    "react-cropper": "^2.1.8",
+    "react-datepicker": "^4.7.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^12.0.4",
+    "react-icons": "^4.3.1",
+    "react-infinite-scroller": "^1.2.5",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "5.0.0",
+    "react-toastify": "^8.2.0",
+    "typescript": "^4.5.5",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "move build ../API/wwwroot",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "rules": {
+      "semi": [
+        "error",
+        "always"
+      ],
+      "quotes": [
+        "warn",
+        "single"
+      ]
+    },
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-calendar": "^3.4.5",
+    "@types/react-datepicker": "^4.3.4",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-router-dom": "^5.3.2",
+    "@types/uuid": "^8.3.4",
+    "@types/yup": "^0.29.13"
+  }
+}
