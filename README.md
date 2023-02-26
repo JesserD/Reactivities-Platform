@@ -11,6 +11,6 @@ A social media platform where users can register, login, add, share ,edit and at
 ## Link to the web application
 This web application is available via the following link :
 
-app-dev-reactivities.azurewebsites.net
+[app-dev-reactivities.azurewebsites.net](https://app-dev-reactivities.azurewebsites.net/)
 
 When registering, you need to enter a strong password like : Pa$$w32rd
